@@ -1,0 +1,15 @@
+{
+  "name": "talk_freely",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "App to chat in different languages",
+  "main": "./svr.js",
+  "dependencies": {
+    "express": "^4.6.1",
+    "request": "^2.48.0",
+    "socket.io": "^1.2.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
