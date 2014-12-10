@@ -21,4 +21,19 @@ Just follow the instructions given in the below link and you are good to go.
 
 http://blogs.msdn.com/b/translation/p/gettingstarted1.aspx
 
+After you get your client ID and client secret add them to lines 21 and 22 in svr.js i.e to the following lines:
+
+          client_id : '<your client id here>', 
+          client_secret  : '<your client secret here>', 
+          
+Make sure you have Node Js installed. Else you can get it at: http://nodejs.org/download/
+          
+Then open console/terminal and run the following commands:
+                    npm install
+                    node svr.js
+                    
+Now go to your browser and connect to localhost:8080 and you are good to go.
+
+For proper checking connect to the page from two different tabs.
+
 The current version has full support by Chrome for windows and partial support by Chrome for Android. Rest all browsers are not supported now.
